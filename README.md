@@ -1,3 +1,6 @@
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 # Open-Source Datasets
 
 Welcome to the Vector Database Cloud Open-Source Datasets repository! This repository serves as a curated collection of datasets that are useful for training and evaluating vector database applications. Here, you can find a variety of datasets along with the necessary metadata and usage guidelines.
@@ -5,32 +8,27 @@ Welcome to the Vector Database Cloud Open-Source Datasets repository! This repos
 ## Table of Contents
 
 - [About](#about)
-- [How to Contribute](#how-to-contribute)
+- [Prerequisites](#prerequisites)
 - [Datasets](#datasets)
   - [Text Datasets](#text-datasets)
   - [Image Datasets](#image-datasets)
   - [Audio Datasets](#audio-datasets)
   - [Multimodal Datasets](#multimodal-datasets)
+- [Usage](#usage)
+- [Contribution and Feedback](#contribution-and-feedback)
 - [Code of Conduct](#code-of-conduct)
-- [License](#license)
+- [Disclaimer](#disclaimer)
+
 
 ## About
 
 This repository collects open-source datasets suitable for vector database applications. Each dataset is accompanied by metadata, usage instructions, and any necessary preprocessing scripts.
 
-## How to Contribute
+## Prerequisites
 
-We encourage contributions from the community! If you have a dataset to share, please follow these steps:
+- Sufficient storage space for downloading datasets
+- Appropriate software for handling specific dataset formats (e.g., Python with pandas for CSV files)
 
-1. **Fork the Repository**: Fork this repository to your GitHub account.
-2. **Add Your Dataset**: Create a directory for your dataset. Include the data files, a README with metadata, and any preprocessing scripts.
-3. **Submit a Pull Request**: Submit a pull request for review and inclusion in the repository.
-
-### Contribution Guidelines
-
-- Ensure datasets are properly licensed and attributed.
-- Include comprehensive metadata and usage instructions.
-- Provide clear documentation for any preprocessing steps.
 
 ## Datasets
 
@@ -82,10 +80,35 @@ We encourage contributions from the community! If you have a dataset to share, p
   *Description*: A dataset of 30,000 images with captions, designed for image captioning and multimodal research.  
   *License*: Custom; non-commercial research only.
 
+## Usage
+
+To use these datasets:
+
+1. Navigate to the specific dataset you're interested in.
+2. Follow the download instructions provided in the dataset's README.
+3. Use the preprocessing scripts (if any) to prepare the data for your vector database.
+
+## Contribution and Feedback
+
+We encourage contributions from the community! If you have a dataset to share or suggestions for improvement, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your contribution.
+3. Add your dataset or make your changes. Include comprehensive metadata, usage instructions, and any necessary preprocessing scripts.
+4. Submit a pull request with a clear description of your contribution.
+
+Please ensure datasets are properly licensed and attributed, and provide clear documentation for any preprocessing steps.
+
+For any issues or suggestions, please use the issue tracker.
+
+
 ## Code of Conduct
 
 We adhere to the [Vector Database Cloud Code of Conduct](https://github.com/VectorDBCloud/Community/blob/main/CODE_OF_CONDUCT.md). Please ensure contributions align with our community standards.
 
-## License
 
-This repository is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+## Disclaimer
+
+The datasets provided in this repository are collected from various sources and are subject to their respective licenses. While we strive to ensure all datasets are properly licensed for redistribution, users are responsible for verifying the license terms and using the datasets in compliance with those terms.
+
+Vector Database Cloud is not responsible for the content of the datasets or any consequences resulting from their use. Always verify the suitability of a dataset for your specific use case before using it in any production environment.
