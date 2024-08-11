@@ -1,23 +1,24 @@
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 # Open-Source Datasets
 
 Welcome to the Vector Database Cloud Open-Source Datasets repository! This repository serves as a curated collection of datasets that are useful for training and evaluating vector database applications. Here, you can find a variety of datasets along with the necessary metadata and usage guidelines.
 
+
 ## Table of Contents
 
-- [About](#about)
-- [Prerequisites](#prerequisites)
-- [Datasets](#datasets)
-  - [Text Datasets](#text-datasets)
-  - [Image Datasets](#image-datasets)
-  - [Audio Datasets](#audio-datasets)
-  - [Multimodal Datasets](#multimodal-datasets)
-- [Usage](#usage)
-- [Contribution and Feedback](#contribution-and-feedback)
-- [Code of Conduct](#code-of-conduct)
-- [Disclaimer](#disclaimer)
+1. [About](#about)
+2. [Prerequisites](#prerequisites)
+3. [Datasets](#datasets)
+    1. [Text Datasets](#text-datasets)
+    2. [Image Datasets](#image-datasets)
+    3. [Audio Datasets](#audio-datasets)
+    4. [Multimodal Datasets](#multimodal-datasets)
+4. [Usage](#usage)
+5. [Contribution and Feedback](#contribution-and-feedback)
+6. [Code of Conduct](#code-of-conduct)
+7. [License](#license)
+8. [Disclaimer](#disclaimer)
 
 
 ## About
@@ -107,8 +108,38 @@ For any issues or suggestions, please use the issue tracker.
 We adhere to the [Vector Database Cloud Code of Conduct](https://github.com/VectorDBCloud/Community/blob/main/CODE_OF_CONDUCT.md). Please ensure contributions align with our community standards.
 
 
+## License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2024 Vector Database Cloud
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit to Vector Database Cloud, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests Vector Database Cloud endorses you or your use.
+
+Additionally, we require that any use of this guide includes visible attribution to Vector Database Cloud. This attribution should be in the form of "Dataets curated by Vector Database Cloud" or "Based on Vector Database Cloud Datasets", along with a link to https://vectordbcloud.com, in any public-facing applications, documentation, or redistributions of this guide.
+
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+For the full license text, visit: https://creativecommons.org/licenses/by/4.0/legalcode
+
+
 ## Disclaimer
 
-The datasets provided in this repository are collected from various sources and are subject to their respective licenses. While we strive to ensure all datasets are properly licensed for redistribution, users are responsible for verifying the license terms and using the datasets in compliance with those terms.
+The information and resources provided in this community repository are for general informational purposes only. While we strive to keep the information up-to-date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information, products, services, or related graphics contained in this repository for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
-Vector Database Cloud is not responsible for the content of the datasets or any consequences resulting from their use. Always verify the suitability of a dataset for your specific use case before using it in any production environment.
+Vector Database Cloud configurations may vary, and it's essential to consult the official documentation before implementing any solutions or suggestions found in this community repository. Always follow best practices for security and performance when working with databases and cloud services.
+
+The content in this repository may change without notice. Users are responsible for ensuring they are using the most current version of any information or code provided.
+
+This disclaimer applies to Vector Database Cloud, its contributors, and any third parties involved in creating, producing, or delivering the content in this repository.
+
+The use of any information or code in this repository may carry inherent risks, including but not limited to data loss, system failures, or security vulnerabilities. Users should thoroughly test and validate any implementations in a safe environment before deploying to production systems.
+
+For complex implementations or critical systems, we strongly recommend seeking advice from qualified professionals or consulting services.
+
+By using this repository, you acknowledge and agree to this disclaimer. If you do not agree with any part of this disclaimer, please do not use the information or resources provided in this repository.
